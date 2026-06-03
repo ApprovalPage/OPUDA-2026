@@ -442,6 +442,66 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,0,217,164);
 
 
+(lib.CTA300x600svg = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// CTA 300x600.svg
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#232D4F").s().p("AgiBDIAAiFIBFAAIAAASIgxAAIAAAmIAkAAIAAAQIgkAAIAAArIAxAAIAAASg");
+	this.shape.setTransform(148.225,18.425);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#232D4F").s().p("AATBCQgDgGgBgiQAAgRgPAAIgTAAIAAA5IgUAAIAAiDIAnAAQASgBAKAKQALAKAAAQQAAAWgSAJQAOAEAAAWQAAAbAFAMgAgTgHIATAAQASAAAAgUQAAgVgSAAIgTAAg");
+	this.shape_1.setTransform(139.025,18.4);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#232D4F").s().p("AgfA0QgMgSAAgiQAAghAMgSQALgRAUAAQAUAAAMARQAMASAAAhQAAAigMASQgMARgUAAQgUAAgLgRgAgXAAQAAAzAXAAQAXAAABgzQgBgygXAAQgXAAAAAyg");
+	this.shape_2.setTransform(128.75,18.425);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#232D4F").s().p("AAfBDIABh0IgXB0IgRAAIgXhzIABBzIgSAAIAAiFIAeAAIASBjIAThjIAeAAIAACFg");
+	this.shape_3.setTransform(117.625,18.425);
+
+	this.shape_4 = new cjs.Shape();
+	this.shape_4.graphics.f("#232D4F").s().p("AAQBDIgmhjIABBjIgSAAIAAiFIAYAAIAlBkIAAhkIARAAIAACFg");
+	this.shape_4.setTransform(102.45,18.425);
+
+	this.shape_5 = new cjs.Shape();
+	this.shape_5.graphics.f("#232D4F").s().p("AATBCQgDgGgBgiQAAgRgPAAIgTAAIAAA5IgUAAIAAiDIAnAAQASgBAKAKQALAKAAAQQAAAWgSAJQAOAEAAAWQAAAbAFAMgAgTgHIATAAQASAAAAgUQAAgVgSAAIgTAAg");
+	this.shape_5.setTransform(92.825,18.4);
+
+	this.shape_6 = new cjs.Shape();
+	this.shape_6.graphics.f("#232D4F").s().p("AAZBDIgIggIgjAAIgHAgIgUAAIAhiFIAZAAIAhCFgAgOASIAbAAIgNg+g");
+	this.shape_6.setTransform(82.725,18.425);
+
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f("#232D4F").s().p("AgiBDIAAiFIBFAAIAAASIgxAAIAAAmIAkAAIAAAQIgkAAIAAArIAxAAIAAASg");
+	this.shape_7.setTransform(73.175,18.425);
+
+	this.shape_8 = new cjs.Shape();
+	this.shape_8.graphics.f("#232D4F").s().p("AgiBDIAAiFIAUAAIAABzIAxAAIAAASg");
+	this.shape_8.setTransform(64.4,18.425);
+
+	this.shape_9 = new cjs.Shape();
+	this.shape_9.graphics.f("#FFFFFF").s().p("AtZC4QhNAAg2g2Qg2g2AAhMQAAhLA2g2QA2g2BNAAIazAAQBMAAA3A2QA2A2AABLQAABMg2A2Qg3A2hMAAg");
+	this.shape_9.setTransform(104.275,18.425);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,208.6,36.9);
+
+
 (lib.HEAD = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -464,6 +524,28 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.HEAD, new cjs.Rectangle(0,0,217,164), null);
 
 
+(lib.CTA = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.CTA300x600svg("synched",0);
+	this.instance.setTransform(-0.05,0.05,1,1,0,0,0,63.2,11.2);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.CTA, new cjs.Rectangle(-63.2,-11.1,208.5,36.8), null);
+
+
 // stage content:
 (lib.OPUDAPhase1300x600 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
@@ -476,21 +558,21 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [70];
+	this.actionFrames = [118];
 	// timeline functions:
-	this.frame_70 = function() {
+	this.frame_118 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(70).call(this.frame_70).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(118).call(this.frame_118).wait(1));
 
 	// border
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f().s("#232D50").ss(1,1,1).p("EgXWguyMAutAAAMAAABdlMgutAAAg");
 	this.shape.setTransform(150,300);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(71));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(119));
 
 	// HEAD
 	this.instance = new lib.HEAD();
@@ -498,7 +580,7 @@ if (reversed == null) { reversed = false; }
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(9).to({_off:false},0).to({alpha:1},5).wait(57));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(9).to({_off:false},0).to({alpha:1},5).wait(105));
 
 	// SUBHEAD
 	this.instance_1 = new lib.SUBHEAD300X600svg();
@@ -506,13 +588,19 @@ if (reversed == null) { reversed = false; }
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(47).to({_off:false},0).to({alpha:1},5).wait(19));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(47).to({_off:false},0).to({alpha:1},5).wait(67));
+
+	// CTA
+	this.instance_2 = new lib.CTA();
+	this.instance_2.setTransform(109,546.25);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(95).to({scaleX:1.1,scaleY:1.1,x:104.85},2).to({scaleX:1,scaleY:1,x:109},4).wait(18));
 
 	// BKGD
-	this.instance_2 = new lib.BKGD300x600();
-	this.instance_2.setTransform(0,0,0.5,0.5);
+	this.instance_3 = new lib.BKGD300x600();
+	this.instance_3.setTransform(0,0,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(71));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(119));
 
 	this._renderFirstFrame();
 
